@@ -1,0 +1,33 @@
+import {
+  LayoutDashboard,
+  Zap,
+  SunMedium,
+  BatteryCharging,
+  Activity,
+  Cpu,
+  Sparkles,
+  Wrench,
+  BarChart3,
+  Radio,
+  BellRing,
+  FileText,
+  Settings,
+  LifeBuoy,
+} from 'lucide-react'
+
+export const navigation = [
+  { label: 'Dashboard', href: '/', icon: LayoutDashboard },
+  { label: 'Energy', href: '/energy', icon: Zap },
+  { label: 'Solar Panels', href: '/solar', icon: SunMedium },
+  { label: 'Battery Systems', href: '/battery', icon: BatteryCharging },
+  { label: 'Battery Health', href: '/battery', icon: Activity },
+  { label: 'Digital Twin', href: '/digital-twin', icon: Cpu },
+  { label: 'AI Assistant', href: '/ai', icon: Sparkles },
+  { label: 'Predictive Maintenance', href: '/maintenance', icon: Wrench },
+  { label: 'Analytics', href: '/analytics', icon: BarChart3 },
+  { label: 'IoT Devices', href: '/energy', icon: Radio },
+  { label: 'Alerts', href: '/analytics', icon: BellRing },
+  { label: 'Reports', href: '/analytics', icon: FileText },
+  { label: 'Settings', href: '/settings', icon: Settings },
+  { label: 'Support', href: '/settings', icon: LifeBuoy },
+]
